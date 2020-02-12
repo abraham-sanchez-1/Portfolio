@@ -6,15 +6,16 @@ body{
    
     
 }
-#header{
-    background-color: rgba(0, 153, 51, .6);
-    padding-bottom: 1%;
-}
+
 h1{
     font-size: 300%;
     padding: 0px, 0px,0px,0px;
     margin:0px,0px;
 }
-.navbar.navbar-expand-sm.navbar-dark.bg-dark.fixed-topnavbar nav {
-    color:red !important;
+.jumbotron {
+    background-color: rgba(0, 153, 51, .6);
+    padding-bottom: 1%;
+}
+.container {
+    opacity: .9;
 }

@@ -5,33 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abraham: Full-Stack Dev</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <ul class="navbar-nav ml-auto">
+    <nav id="nav-opacity"class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Si se puede!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutme.html">About Me</a>
+                <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="aboutme.html"><i class="fa fa-fw fa-user-circle"></i>About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
+                <a class="nav-link" href="projects.html"><i class="fa fa-fw fa-code"></i>Projects</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope-o"></i>Contact Me</a>  
+            </li>  
           </ul>
-    </nav>
-    <div id="header" class="jumbotron text-center">
+        </div>  
+      </nav>
+
+    <div class="jumbotron text-center">
         <h1>Full Stack Developer</h1>
-            <p style="font-size: 150%";>Full-stack developer:<br> devCodeCamp Graduate April 2020</p>
+            <p style="font-size: 150%";>Full-stack developer:<br> devCodeCamp Graduate</p>
     </div>
-    
+
     
     
 
