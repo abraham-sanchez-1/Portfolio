@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://www.arcvision.org/wp-content/oqey_gallery/galleries/padiglione-quadracci/galimg/milwaukee_art_museum-hd-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+    
+}
+#header{
+    background-color: rgb(0, 153, 51);
+    padding-bottom: 1%;
+}
+h1{
+    font-size: 300%;
+}
