@@ -1,11 +1,18 @@
-body{
+/* body{
     background-image: url('https://www.arcvision.org/wp-content/oqey_gallery/galleries/padiglione-quadracci/galimg/milwaukee_art_museum-hd-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    
-    
+    color: white;  
+} */
+
+
+body{
+    background-image: url("background-fotor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 h1{
     font-size: 300%;
@@ -14,8 +21,8 @@ h1{
 }
 .jumbotron {
     margin-top: 15px;
-    background-color: rgba(0, 153, 51, .6);
     padding-bottom: 1%;
+    color: black;
 }
 .container {
     opacity: .9;
@@ -35,5 +42,8 @@ hr {
 }
 p{
     font-size: 130%;
+}
+.footer-p {
+    font-size: 100%;
 }
 
