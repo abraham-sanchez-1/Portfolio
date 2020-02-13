@@ -12,28 +12,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <ul class="navbar-nav ml-auto">
+    <nav id="nav-opacity"class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Si se puede!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a> 
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html"><i class="fa fa-fw fa-code"></i>Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope-o"></i>Contact Me</a>  
+                <a class="nav-link" href="projects.html"><i class="fa fa-fw fa-code"></i>Projects</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope-o"></i>Contact Me</a>  
+            </li>  
           </ul>
-    </nav>
+        </div>  
+      </nav>
     <div id= "header" class="jumbotron text-center">
         <h1>About Me</h1>
         <img src="https://media-exp1.licdn.com/dms/image/C5603AQGPWh6K5YIfaQ/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=BD-5GA0mZ2SPpyOz6EH0xAwwOI3fKbBiFN68vhNkWRA" class = "rounded-circle" alt="Portrait of Abrahm">
-            <p style="font-size: 150%";>Abraham Sanchez - Developer in the MKE area<br> devCodeCamp Graduate April 2020</p>
+            <p >Abraham Sanchez - Developer in the MKE area<br> devCodeCamp Graduate April 2020</p>
     </div>
     <div class= "container p-3 my-3 bg-dark text-white text-center">
         <h2>Areas of Expertise:</h2>
+        <hr>
         <ul class = "list-inine"></ul>
             <li class="list-inline-item">C# </li>
+            <li class="list-inline-item">ASP.NET </li>
             <li class="list-inline-item">Javascript </li>
             <li class="list-inline-item">Python </li>
             <li class="list-inline-item">Html/CSS </li>

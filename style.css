@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-   
+    
     
 }
 
@@ -13,9 +13,27 @@ h1{
     margin:0px,0px;
 }
 .jumbotron {
+    margin-top: 15px;
     background-color: rgba(0, 153, 51, .6);
     padding-bottom: 1%;
 }
 .container {
     opacity: .9;
 }
+.card {
+    color: black;
+    opacity: 1;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-width: 2px;
+}
+p{
+    font-size: 130%;
+}
+

@@ -12,50 +12,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <ul class="navbar-nav ml-auto">
+    <nav id="nav-opacity"class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Si se puede!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a> 
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutme.html"><i class="fa fa-fw fa-user-circle"></i>About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope-o"></i>Contact Me</a>  
+                <a class="nav-link" href="aboutme.html"><i class="fa fa-fw fa-user-circle"></i>About Me</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope-o"></i>Contact Me</a>  
+            </li>  
           </ul>
-    </nav>
+        </div>  
+      </nav>
 
-    <!-- Start of Carousel -->
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Sweepstakes.jpg" alt="Image of Sweepstakes project" width="600" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="ny.jpg" alt="New York" width="1100" height="500">
+    <div class="container p-3 my-3 bg-dark text-white text-center">
+        <h2>Projects</h2>
+        <p></p>
+        <div class = "card-columns card-deck">
+        <div class="card">
+          <div class="card-body">
+            <img class="card-img-top" src="HumaneSociety.jpg" alt="Image of HumaneSociety project">
+            <h4 class="card-title">Humane Society</h4>
+            <p class="card-text">Backend application for a Humane Society that stores and displays information about animals in a database</p>
+            <a href="#" class="card-link"><i class="fa fa-fw fa-code"></i>Code</a>
+            <a href="#" class="card-link">Documentation</a>
           </div>
         </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
+        <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="Sweepstakes.jpg" alt="Image of Sweepstakes project">
+              <h4 class="card-title">Sweepstakes Manager</h4>
+              <p class="card-text">Backend funcionality to manage and create sweepstakes</p>
+              <a href="#" class="card-link"><i class="fa fa-fw fa-code"></i>Code</a>
+              <a href="#" class="card-link">Documentation</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="CustomList.jpg" alt="Image of CustomList project">
+              <h4 class="card-title">Custom List Class</h4>
+              <p class="card-text">Overload over built-in Generic List class</p>
+              <a href="#" class="card-link"><i class="fa fa-fw fa-code"></i>Code</a>
+              <a href="#" class="card-link">Documentation</a>
+            </div>
+          </div>
       </div>
+    </div>
+
+    
 </body>
 </html>
