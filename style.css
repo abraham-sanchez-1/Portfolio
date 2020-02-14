@@ -43,6 +43,7 @@ p{
 }
 .footer-p {
     font-size: 100%;
+    margin-top: 25px;
     margin-bottom: 0px;
 }
 .container-fluid-footer {
@@ -51,10 +52,18 @@ p{
 }
 
 img {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .card {
     display:flex;
     flex-direction:column
+}
+#personal-image {
+    box-shadow: 10px 10px 5px gray;
+}
+
+.rounded-circle {
+    width: 25%;
+    height: 25%;
 }
 
